@@ -50,7 +50,7 @@ __published:	// IDE-managed Components
 
 private:	// User declarations
 public:		// User declarations
-        int LastPosition;
+		int LastPosition;
 		__fastcall TForm1(TComponent* Owner);
 		void Blocking();
 		void UnBlocking();

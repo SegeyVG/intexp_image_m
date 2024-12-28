@@ -85,6 +85,7 @@ __fastcall TForm1::TForm1(TComponent* Owner) : TForm(Owner) {
 
 	Label4->Caption = AnsiString("Ёкран: ") + SW + "x" + SH;
 	LastPosition = TrackBar1->Position;
+    GroupBox3->Enabled = false;
 
 	H = Image1->Height;
 	W = Image1->Width;
